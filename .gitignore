@@ -1,0 +1,21 @@
+# Python cache files and folders
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.vscode
+.ruff_cache
+
+# Ignore folders
+old/
+
+# Ignore a specific file at the repository root
+config_local.py
+learning.md
+move_overlays_in_archives.py
+
+# Ignore all .env files
+.env
+
+# Ignore the virtual environment
+.venv/
