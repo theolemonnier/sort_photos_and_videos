@@ -37,8 +37,8 @@ First create and activate a virtual environments using the corresponding command
 1. Configure paths in config.py 
     * ORIGIN: source folder containing photos and videos to sort 
     * PHOTOS_DESTINATION and VIDEOS_DESTINATION: destination folders for sorted files 
-    * Set MANUAL_SELECTION = True to select folders via pop-up windows instead.
-    * INITIALDIR: dir from which the pop-up windows start
+    * Set MANUAL_SELECTION = True to select folders via pop-up windows instead
+    * INITIALDIR: The starting directory displayed when the folder selection windows open
 
 2. Run the script: 
 ```sh
