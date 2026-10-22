@@ -39,7 +39,11 @@ def validate_folder(folder: Path, name: str):
         raise SystemExit(f"{name} has not been selected.")
 
     if not folder.is_dir():
-        raise SystemExit(f"{name} is not a valid directory.")
+        raise SystemExit(
+            f"Error: Source folder not found: {folder}\n"
+            f"Update {name.upper()} in config.py or set MANUAL_SELECTION = True in config.py "
+            f"to select an existing folder."
+        )
 
 
 def detect_file_name_date_collisions(folder):
